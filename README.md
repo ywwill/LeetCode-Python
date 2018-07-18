@@ -1,0 +1,2 @@
+# LeetCode-Python
+人生苦短我用Python，在LeetCode上刷算法题，发现Python真的是很逆天，有些操作往往其他语言需要很多的步骤，Python可能一句表达式就能搞定
