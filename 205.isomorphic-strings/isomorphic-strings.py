@@ -27,7 +27,7 @@ def isIsomorphic2(s, t):
     """
     # 使用zip将两个数组对应位置元素相连，再利用set不能有重复元素的特性，判断三者的长度是否相同即可
     return len(set(zip(s,t))) == len(set(s)) == len(set(t))
-
+  
 def main():
     s = 'paper'
     t = 'title'
