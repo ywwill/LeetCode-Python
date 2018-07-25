@@ -4,6 +4,11 @@
 import collections
 
 def intersect1(nums1, nums2):
+    """
+    :type nums1: List[int]
+    :type nums2: List[int]
+    :rtype: List[int]
+    """
     ans = []
     nums1.sort() # 排序
     nums2.sort()
@@ -17,7 +22,7 @@ def intersect1(nums1, nums2):
         else:
             ans.append(nums1[i])
             i += 1
-            j +=1
+            j += 1
     return ans
 
 def intersect2(nums1, nums2):
@@ -56,6 +61,7 @@ def intersect3(nums1, nums2):
 def main():
     nums1 = [1,2,2,1]
     nums2 = [2,2]
+
     print(intersect1(nums1, nums2))
     print(intersect2(nums1, nums2))
     print(intersect3(nums1, nums2))
