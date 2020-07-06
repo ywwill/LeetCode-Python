@@ -17,8 +17,9 @@ def removeDuplicates(nums):
 
 def main():
     nums = [1,2,2,2,3] # 排好序的数组
-    removeDuplicates(nums)
+    length = removeDuplicates(nums)
     print(nums)
+    print(nums[0:length])
 
 if __name__ == '__main__':
     main()

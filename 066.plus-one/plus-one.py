@@ -13,7 +13,7 @@ def plusOne(digits):
 
 
 def main():
-   digits = [1,2,3,4,5,6]
+   digits = [2,6,3,4,5,6]
    print(plusOne(digits))
 
 if __name__ == '__main__':
